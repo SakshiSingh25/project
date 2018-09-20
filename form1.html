@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+   
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <h1>Forms</h1>
+                    <form>
+                        <div class="form-group">
+                              <label for="Firstname">First name</label>
+                              <!--First name:<input type="text" name="Firstname" class="form-control "><br><br>
+                              last name:<input type="text" name="Lastname" class="form-control "><br><br>
+                              then remove br tags n apply placeholder="first name"
+                              <input type="text" name="Firstname" class="form-control" placeholder="First name">
+                              <input type="text" name="Lastname" class="form-control" placeholder="Last name">
+                             
+                              -->                   
+                              <input type="text" name="Firstname" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last name</label>
+                            <input type="text" name="lastname" class="form-control">
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="gender" value="male">Male 
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="female">Female 
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="other">Other 
+                            </label>
+                            
+                        </div>
+                        <div class="checkbox">
+                            I want To order:
+                            <label>
+                                <input type="checkbox" name="food" value="Coffee" checked>Coffee
+                            </label>
+                             <label>
+                                <input type="checkbox" name="food" value="Cake">Cake<!-- cake is kept optional-->
+                            </label><!--Label gvs  padding left 20px n margin bootom as 20px , to keep checkbox aligned with other
+                                    txtfilds--> 
+                        </div>
+                        <div class="form-group">
+                            Quantity:
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<!-- using col xs4 the col space is limited therefore using form control class col appear bigger vd rounded corners
+now on removing br tags there is no space between textfield 1st n 2nd field so using form group-->
